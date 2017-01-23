@@ -1,0 +1,110 @@
+a{
+    padding:5%;
+}
+
+nav{
+   text-align: center; 
+   font-family: Impact, Charcoal, sans-serif;
+}
+#vierkant {
+        display: box;
+        margin:2%;
+	width: 20%;
+	height: 20%;
+	background: black;
+        float:left;
+}
+#leegbar {
+        float:right;
+        background: black;
+ 	width: 20%;
+	height: 10px;
+}
+#volbar {
+        float:right;
+        background: blue;
+ 	width: 30%;
+	height: 10px;  
+}
+#skills p{
+        text-align: left;
+}
+
+	
+
+#hello
+{
+display: block;
+background-color: gray;
+}
+#hello h1,h2,h3
+{
+   text-align: center;
+}
+#hello h3
+{
+    color:white;
+}
+#introduction
+{
+display: block;
+width:50%;
+background-color: white;
+text-align: center;
+float:left;
+}
+#intro
+{
+width:50%;
+background-color: gray;
+text-align: center;
+float:left;
+}
+#experience
+{
+width:50%;
+height:10%;
+background-color: gray;
+text-align: center;
+float:left;
+}
+#skills
+{
+width:50%;
+height:10%;
+background-color: white;
+text-align: center;
+float:left;
+}
+#empty
+{
+    float:left;
+    width:65%;
+    height:500px;
+    background-color: lightgray;
+}
+#project
+{
+    float:left;
+    width:35%;
+    height:500px;
+    background-color: gray;
+    text-align: center;
+    color:white;
+}
+#connected
+{
+    background-color:lightsteelblue;
+    float: left;
+    width:100%;
+    text-align: center;
+    color:white;
+}
+#footer
+{
+    float:left;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+}
