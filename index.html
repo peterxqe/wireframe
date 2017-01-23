@@ -1,92 +1,112 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<html lang="en">
+
     <head>
-        <title>competa project</title>
-        <meta charset="UTF-8">
+        <title>Competa project2</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="competa.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+
     <body>
-  
-        <nav>
-            <a href="#hello">home</a>
-            <a href="#intro">about</a>
-            <a href="#project">work</a>
-            <a href="#connected">contact</a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#experience">work</a></li>
+                <li><a href="#connected">contact</a></li>
+            </ul>
         </nav>
-        
-        <div id="hello">
-            <h1>Name Surname</h1>
-            <h2>function</h2>
-            <h3>"oneliner about what you stand for, add some personality"</h3>
-        </div>
-        <div id="introduction">
-            Hi, I'am <strong>Name</strong>,
-            introduce yourself here with some short introduction
-           about you, your skills, hobies and what ever you
-            liketo share. Dont be shy.
-        </div>
-        <div id="intro">
-            <p><strong>intro</strong></p>
-            <p>Introduce yourself here with some short introduction</p>
-            <p>about you, your skills, hobies and what ever you</p>
-            <p>like to share. Don't be shy.</p>
-        </div>
-        <div id="experience">
-            <p><strong>experience</strong></p>
-            <p>intro about your work experience. Name your most</p>
-            <p>important education, projects and work experience</p>
-          
-            <button>CV</button>
-        </div>
-       <div id="skills">
-           <p>skills1</p>
-           <div id="leegbar"></div><div id="volbar"></div>
-           <p>skills2</p>
-           <div id="leegbar"></div><div id="volbar"></div>
-           <p>skills3</p>
-           <div id="leegbar"></div><div id="volbar"></div>
-          <p>skills4</p>
-           <div id="leegbar"></div><div id="volbar"></div>
-          <p>skills5</p>
-           <div id="leegbar"></div><div id="volbar"></div>
-        </div>
-        <div id="empty">
-        </div>
-        <div id="project">
-            <h2> title of project</h2>
-            <p>Explain something about the work here.</p>
-            <br><br><br>
-            <p>_____________________</p>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            <div id="vierkant" ></div>
-            
-        </div>
-        <div id="connected">
-            <h2>Let's get connected!</h2>
-            <form>
-                
-                <input type="text" name="naam" >
-                <input type="email" name="email">
-                <br><textarea rows="8" cols="65"></textarea>
-                <br><input type="submit" value="submit">
-            </form>
-        </div>
-        <div id="footer">
-            <p>thnx for visiting!</p>
-            <b>2017 all right reserved</b>
-            
-        </div>
+
+        <section class='home'>
+            <h1>Name Surname
+            <span>function</span></h1>
+            <p>"oneliner about what you stand for, add some personality ;)"</p>
+        </section>
+
+        <section class="name positionleft">
+            <h2>me</h2>
+                <p>Hi, I'am <strong>Name</strong>, Introduce yourself
+                here with some short introduction about you, your skills, hobies
+                and what ever you like to share. Don't be shy.</p>
+        </section>
+
+        <section class="intro positionleft">
+            <h2>intro</h2>
+                <p>introduce yourself here with some short
+                introduction about you, your skills, hobbies and what ever you like to share.
+                always look on the bright side of life sushushshushs</p>
+        </section>
+        <section class="skills positionleft">
+            <h2>skills</h2>
+            <div class="skillbars">
+                <ul>
+                    <li><span>skill1</span><div class="bar">
+                        <div class="bar twenty"></div>
+                        </div>
+                    </li>
+                    <li><span>skill2</span><div class="bar">
+                        <div class="bar thirty"></div>
+                        </div>
+                    </li>
+                    <li><span>skill3</span><div class="bar">
+                        <div class="bar fifty"></div>
+                        </div>
+                    </li>
+                    <li><span>skill4</span><div class="bar">
+                        <div class="bar fifty"></div>
+                        </div>
+                    </li>
+                    <li><span>skill5</span><div class="bar">
+                        <div class="bar twenty"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience positionleft">
+            <h2>experience</h2>
+                <p>intro about your work experience. Name your most
+                important education, projects and work experience.</p>
+                    <button>CV</button>
+        </section>
+
+
+        <section class="banner">
+            <div class="mountain-box">
+                <img src="img/pic_mountain.jpg" alt="mountains">
+            </div>
+
+                <section class="projects">
+                    <h2>title of projects</h2>
+                        <p>explain something about the work here</p>
+                    <div class="work">
+                        <ul>
+                            <li><img src="img/aap.jpg" alt="a working monkey"></li>
+                            <li><img src="img/aap.jpg" alt="a working monkey"></li>
+                            <li><img src="img/aap.jpg" alt="a working monkey"></li>
+                            <li><img src="img/aap.jpg" alt="a working monkey"></li>
+                            <li><img src="img/aap.jpg" alt="a working monkey"></li>
+                            <li><img src="img/aap.jpg" alt="a working monkey"></li>
+                        </ul>
+                    </div>
+                </section>
+        </section>
+                <section class="connected">
+                    <h2>let's get connected!</h2>
+                    <form class="contact">
+                        <input type="text" name="firstname">
+                        <input type="text" name="lastname">
+                        <textarea></textarea>
+                        <input type="submit" name="send" value="send">
+                    </form>
+                </section>
+
+        <footer>
+            <p>thnx for visiting</p>
+                <p><span>2016 all right Reserved</span></p>
+        </footer>
+
     </body>
 </html>
